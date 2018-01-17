@@ -1,0 +1,17 @@
+int n, count, prev, lines;
+        
+        try {
+            lines = textList.get(tab).getLineCount();
+            count = 0;
+            for (n = 0; n < lines; n+=1) {
+                
+                prev = count;
+                count = textList.get(tab).getLineEndOffset(n);
+                
+                cursorState.setText((n + 1) + ":" + (myCaret - prev));
+                if(count >= myCaret) {
+                    cursorState.setText((n + 1) + ":" + (myCaret - prev));
+                    break;
+                }
+            }
+        }catch(BadLocationException e) {}
