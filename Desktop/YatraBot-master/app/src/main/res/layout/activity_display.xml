@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bhonesh.railwayapi.Display">
+
+    <Button
+        android:id="@+id/train_between"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/route"
+        android:layout_marginTop="28dp"
+        android:text="train b/w station" />
+
+    <Button
+        android:id="@+id/seat_avail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="279dp"
+        android:layout_marginRight="279dp"
+        android:text="seat_avail" />
+
+    <Button
+        android:id="@+id/pnr_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/train_between"
+        android:layout_marginTop="19dp"
+        android:text="pnr_check" />
+
+    <Button
+        android:id="@+id/route"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/seat_avail"
+        android:layout_marginTop="19dp"
+        android:text="route" />
+
+    <Button
+        android:id="@+id/fare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/seat_avail"
+        android:layout_centerHorizontal="true"
+        android:text="fare" />
+
+</RelativeLayout>
