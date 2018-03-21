@@ -1,0 +1,8 @@
+url:http://djustice-android.tumblr.com
+name:Upesh
+email:hariutd@gmail.com
+gender:female
+botmaster:upesh and bhonesh
+organization:MNNIT
+version:0.0.1
+
